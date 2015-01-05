@@ -19,7 +19,7 @@ sm1 <- as.numeric(hpc$Sub_metering_1)
 sm2 <- as.numeric(hpc$Sub_metering_2)
 sm3 <- as.numeric(hpc$Sub_metering_3)
 
-png("plot3.png", width=504, height=504)
+png("plot3.png", width=480, height=480)
 plot(dat, sm1, type="l", ylab="Energy Sub Metering", xlab="")
 lines(dat, sm2, type="l", col="red")
 lines(dat, sm3, type="l", col="blue")

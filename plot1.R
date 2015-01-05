@@ -18,7 +18,7 @@ hpc <- hpc[order(hpc$Date, hpc$Time),]
 
 ##STEP2 - Plot Data
 gap <- as.numeric(hpc$Global_active_power)
-png("plot1.png", width=504, height=504)
+png("plot1.png", width=480, height=480)
 hist(gap, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
 ##STEP3 - Close Quartz

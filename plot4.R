@@ -22,7 +22,7 @@ grp <- as.numeric(hpc$Global_reactive_power)
 volts <- as.numeric(hpc$Voltage)
 
 ##STEP3 - Plot Data
-png("plot4.png", width=504, height=504)
+png("plot4.png", width=480, height=480)
 par(mfrow = c(2, 2))
 
 #Plot1
